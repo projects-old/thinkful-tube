@@ -5,7 +5,7 @@ $(document).ready(function() {
   function getResults(searchTerm) {
     $.getJSON("https://www.googleapis.com/youtube/v3/search", {
         "part": "snippet",
-        "key": "AIzaSyDeesVroneRO7Jl0Aax3yNoJWUjeYYjvOs",
+        "key": "1a2B3c4D5E4f5g6H7i8J9k10l11M12n",
         "q": searchTerm,
         "maxResults": 50
       },
