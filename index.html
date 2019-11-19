@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Meta tags -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Thinkful Tube Assignment using YouTube API" />
+
+  <title>Thinkful Tube&trade;</title>
+
+  <!--Favicon -->
+  <link rel="icon" href="images/television-icon.ico" type="image/x-icon" />
+
+  <!-- Stylesheet -->:
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Normalize.css, a cross-browser reset file -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+  <!-- JavaScript / jQuery -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script src="api.js"></script>
+
+</head>
+
+<body>
+
+  <div class="background">
+    <div class="app">
+      <div class="header">
+        <h1>Thinkful Tube&trade; Challenge</h1>
+        <h2>Using the <a href="http://www.youtube.com" target="_blank">YouTube&reg;</a> API</h2>
+        <p class="intro">Enter a word to find the <span class="highlight">top YouTube&reg; videos</span>.
+          For example, if you like funny dog videos, type "dogs".</p>
+        <form id="search-form">
+          <input id="search-term" type="text" name="text-field" placeholder="Search YouTube">
+          <input type="submit">
+        </form>
+      </div>
+      <div id="search-results">
+        <ul></ul>
+      </div>
+    </div>
+    <div class="footer">
+      Source: &nbsp;<a class="source" title="Spotlight PNG HD" href="http://pluspng.com/spotlight-png-hd-7666.html" target="_blank">Spotlight PNG HD</a>
+    </div>
+  </div>
+</body>
+
+</html>
